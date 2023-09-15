@@ -1,0 +1,7 @@
+@media(max-width: 900px) {
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

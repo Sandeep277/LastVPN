@@ -1,0 +1,52 @@
+.rac{
+    display: flex;
+    width: 1140px;
+    height: 200px;
+    margin: 20px auto;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 1px 1px 10px rgba(252, 201, 201, 0.5);
+}
+
+.rac-icons {
+    border-radius: 10px;
+    background: #FFF;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rac-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rac-icons p{
+    line-height: 10px;
+    margin-left: 20px;
+}
+
+.circle-logo {
+    color: #F53838;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 100%;
+    background: #f2c7c7;
+}
+
+@media(max-width: 900px) {
+    .rac{
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+    }
+
+    .rac-icons {
+       justify-content: flex-start;
+    }
+    
+}

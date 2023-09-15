@@ -1,0 +1,10 @@
+ .social-posts {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ @media (max-width: 900px) {
+    .social-posts{
+        flex-direction: column;
+    }
+ } 

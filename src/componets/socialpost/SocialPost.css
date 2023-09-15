@@ -1,0 +1,55 @@
+.social {
+    margin-top: 40px;
+    border: 2px solid lightgray;
+    width: 400px;
+    height: 230px;
+    flex-shrink: 0;
+    padding: 30px;
+    border-radius: 7px;
+    box-shadow: 0 0 1px lightgray;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.profile-name{
+    line-height: 0px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.social-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.post-text p{
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.ratings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.star {
+    margin-left: 5px;
+    color: #FEA250;
+}

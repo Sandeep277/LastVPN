@@ -1,0 +1,66 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    /* background-color: aliceblue; */
+    padding: 7px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+}
+.left{
+    flex: 1;
+}
+.middel{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.middel a {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.right button{
+    padding: 10px;
+    margin-left: 20px;
+    background-color: #fff;
+}
+
+.secondrybtn{
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+
+}
+
+.primarybtn{
+    color: #F53855;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border:2px solid #F53855;
+    border-radius: 20px;
+}
+
+@media (max-width: 900px) {
+    .middel{
+        display: none;
+    }
+}
